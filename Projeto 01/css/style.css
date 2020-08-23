@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+html{
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+}
+
+.header-principal{
+    width: 100%;
+    height: 10vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu li {
+    margin: 0 10px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.812rem;
+    font-weight: 700;
+}
+
+.menu a:hover{
+    color: #DC143C;
+}
+/* fim do header principal */
+
+/* classes para imagens de fundo */
+.banner1{
+    background-image: url(../images/banner1.jpg);
+}
+
+.banner2{
+    background-image: url(../images/banner2.jpg);
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    padding-left: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    background-attachment: fixed;  /* TOPZERA */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.titulo-container{
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+.texto-container{
+    font-size: 1.375rem;
+    color: #fff;
+    margin: 40px 0;
+    width: 40vw;
+
+}
+
+.botao-container{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.25rem;
+    background-color: #DC143C;
+    padding: 20px;
+    border-radius: 5px;
+}
+/* Fim da tela 1 */
+
+/* tela 2 */
+.colunas{
+    flex-direction: row;
+    align-items: center;
+}
+
+.produto{
+    width: 33vw;
+}
+
+.titulo-produto{
+    font-size: 32px;
+    margin-top: 20px;
+}
+
+.texto-produto{
+    font-size: 16px;
+    color: #333;
+    line-height: 28px;
+    margin: 20px 0;
+    width: 26vw;
+}
+
+.produto img{
+    width: 100%;
+}
+/* Fim da tela 2 */
+
+/* tela 3 */
+.container-texto-direita{
+    align-items: flex-end;
+    text-align: right;
+    padding-right: 30px;
+}
+
+/* Fim da tela 3 */
+
+/* tela 4 */
+
+.tres-colunas{
+    width: 31vw;
+    padding: 0 2vw;
+}
+
+/* Fim da tela 4 */
+
+/* Rodapé da página */
+.rodape{
+    width: 100%;
+    height: 15vh;
+    padding: 0 20px;
+    background-color: black;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.rede-social{
+    margin: 0 10px;
+    color: #666;
+}
+
+.rede-social:hover{
+    color: #DC143C;
+}
+
+
+
+
