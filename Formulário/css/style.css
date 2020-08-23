@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+/* reset básico */
+/* asterisco representa todos os elementos - todos usarão a regra abaixo */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Bree Serif', serif;
+}
+
+form {
+  width: 500px;
+  height: auto;
+  background: #000;
+  color: #fff;
+  border-radius: 7px;
+  padding-bottom: 20px;
+  margin: 30px;
+}
+
+.header {
+  width: 100%;
+  height: 80px;
+  line-height: 80px;
+  background-color: #dc3744;
+  text-align: center;
+  border-radius: 7px 7px 0 0;
+  background-image: url(../imagens/user.png);
+  background-repeat: no-repeat;
+  background-position: 20px center;
+}
+
+h3 {
+  font-size: 20px;
+  margin: 20px;
+  font-weight: 100;
+}
+
+p {
+  margin: 20px;
+}
+
+.dados {
+  width: 100%;
+  height: 50px;
+  font-family: 'Bree Serif', serif;
+  font-size: 20px;
+  padding-left: 60px;
+  background-repeat: no-repeat;
+  background-position: 15px center;
+  outline: 0;
+  border-radius: 5px;
+}
+
+.usuario {
+  background-image: url(../imagens/usuario.png);
+}
+
+.email {
+  background-image: url(../imagens/email.png);
+}
+
+.tipo-mensagem {
+  padding-left: 10px;
+}
+
+.mensagem {
+  padding-left: 10px;
+  height: 170px;
+  resize: none;
+}
+
+.enviar {
+  font-family: 'Bree Serif', serif;
+  font-size: 20px;
+  width: 100px;
+  height: 50px;
+  background-color: #dc3744;
+  color: #fff;
+  outline: 0;
+  border: 0;
+  border-radius: 7px;
+  cursor: pointer;
+  margin-left: 360px;
+}
