@@ -1,0 +1,113 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: calibri;
+    font-size: 16px;
+    background-color: #FFFFFF;
+}
+
+.cabecalho {
+    width: 90%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    background-color: RGB(72, 81, 112);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin: 0px;
+}
+
+#box-dois {
+    background-color: RGB(81, 90, 119);
+}
+
+.paragrafo-box {
+    width: 80%;
+}
+
+.link-box {
+    text-decoration: none;
+    font-weight: 500;
+    color: white;
+}
+
+.icone-box {
+    font-size: 40px;
+    padding: 20px;
+    margin: 5px 0;
+}
+
+.fa-instagram {
+    font-size: 35px;
+    padding: 15px;
+    margin: 5px 0;
+}
+
+.menu {
+    width: 80%;
+    height: 30vh;
+}
+
+.menu h2 {
+    text-align: center;
+    margin-top: 2%;
+    font-size: 30px;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.menu li {
+    margin: 0 10px;
+    text-align: center;
+}
+
+.menu a {
+    text-decoration: none;
+    color: rgb(114, 111, 111);
+    font-weight: 700;
+    text-align: right;
+}
+
+.options {
+    text-decoration: none;
+    display: flex;
+    color: black;
+}
+
+.secao {
+    width: 80%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    display: flex;
+}
+
+.secao p {
+    color: white;
+}
+
+.box-photo {
+    width: 15%;
+    height: 20vh;
+    background-color: RGB(71, 81, 112);
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
